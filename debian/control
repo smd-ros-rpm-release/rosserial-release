@@ -1,0 +1,12 @@
+Source: ros-groovy-rosserial-msgs
+Section: misc
+Priority: extra
+Maintainer: Michael Ferguson <mferguson@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-message-generation
+Homepage: http://ros.org/wiki/rosserial_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rosserial-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-runtime
+Description: Messages for automatic topic configuration using rosserial.
