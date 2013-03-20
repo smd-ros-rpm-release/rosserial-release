@@ -1,0 +1,12 @@
+Source: ros-groovy-rosserial-embeddedlinux
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-nav-msgs, ros-groovy-rosserial-client, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Homepage: http://ros.org/wiki/rosserial_embeddedlinux
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rosserial-embeddedlinux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-rospy, ros-groovy-rosserial-msgs
+Description: Libraries and examples for ROSserial usage on Embedded Linux Enviroments
