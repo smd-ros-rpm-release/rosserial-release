@@ -1,0 +1,59 @@
+ros-hydro-rosserial-python (0.5.0-0raring) raring; urgency=high
+
+  * Merge branch 'rosserial_bakui' of git://github.com/tongtybj/rosserial into tongtybj-rosserial_bakui
+    * Modified the frame structure for serial communication, particularly add the checksum for msg_len
+  * Incorporate protocol version in message. Try to detect protocol version mismatch and give appropriate hints.
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Mon, 15 Jul 2013 05:00:00 -0000
+
+ros-hydro-rosserial-python (0.4.5-0raring) raring; urgency=high
+
+  * Fix SeviceServer member names in error message
+    'm' prefix was omitted, causing an exception while trying to print
+    an error about md5 mismatches. Fix this to allow the error to be
+    presented to the user.
+  * Allow service calls with empty requests
+    std_srvs::Empty has a request message of size zero. SerialClient.send
+    returns the size of the sent message, which is checked to ensure
+    data crossed the serial line. Accommodate services with empty requests
+    by modifying the check to acknowledge all transmissions of zero or
+    more bytes as valid.
+  * revert name of node, add a few comments/spacing
+  * fix private parameters - temporary fix breaks fork_server for tcp
+  * Fix #35 <https://github.com/ros-drivers/rosserial/issues/35>
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Tue, 02 Jul 2013 05:00:00 -0000
+
+ros-hydro-rosserial-python (0.4.4-0raring) raring; urgency=high
+
+  * Fixed "Lost sync" message at initial connection that happens on both Arduino &
+    embeddedLinux. Problem was last_sync initialized to epoch and compared against
+    Time.now() always times out on first compare.
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 20 Mar 2013 05:00:00 -0000
+
+ros-hydro-rosserial-python (0.4.3-0raring) raring; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 13 Mar 2013 19:08:00 -0000
+
+ros-hydro-rosserial-python (0.4.2-0raring) raring; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 13 Mar 2013 06:15:00 -0000
+
+ros-hydro-rosserial-python (0.4.1-0raring) raring; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Sat, 09 Mar 2013 06:00:00 -0000
+
+ros-hydro-rosserial-python (0.4.0-0raring) raring; urgency=high
+
+  * initial catkin version on github
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Fri, 08 Mar 2013 06:00:00 -0000
+
+
