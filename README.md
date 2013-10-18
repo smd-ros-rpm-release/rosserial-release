@@ -1,3 +1,30 @@
+## rosserial - 0.5.4-0
+
+User `bouchier@Ubuntu12` released the packages in the `rosserial` repository by running `/usr/bin/bloom-release rosserial --track hydro --rosdistro hydro` on `Fri, 18 Oct 2013 03:26:11 -0000`
+
+These packages were released:
+- `rosserial`
+- `rosserial_arduino`
+- `rosserial_client`
+- `rosserial_embeddedlinux`
+- `rosserial_msgs`
+- `rosserial_python`
+- `rosserial_server`
+- `rosserial_xbee`
+
+Version of package(s) in repository `rosserial`:
+- rosdistro version: `0.5.3-0`
+- old version: `0.5.3-0`
+- new version: `0.5.4-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.14`
+- vcstools version: `0.1.31`
+
+
 ## rosserial - 0.5.3-0
 
 User `bouchier@Ubuntu12` released the packages in the `rosserial` repository by running `/usr/bin/bloom-release rosserial --track hydro --rosdistro hydro` on `Sat, 21 Sep 2013 22:31:34 -0000`
