@@ -1,0 +1,12 @@
+Source: ros-hydro-rosserial-python
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/rosserial_python
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosserial-python
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-serial, ros-hydro-diagnostic-msgs, ros-hydro-rospy, ros-hydro-rosserial-msgs
+Description: A Python-based implementation of the ROS serial protocol.
