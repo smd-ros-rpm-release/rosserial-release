@@ -1,0 +1,12 @@
+Source: ros-hydro-rosserial
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/rosserial
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosserial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rosserial-client, ros-hydro-rosserial-msgs, ros-hydro-rosserial-python
+Description: Metapackage for core of rosserial.
