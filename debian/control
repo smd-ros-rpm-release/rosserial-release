@@ -1,0 +1,12 @@
+Source: ros-hydro-rosserial-msgs
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-generation
+Homepage: http://ros.org/wiki/rosserial_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosserial-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime
+Description: Messages for automatic topic configuration using rosserial.
