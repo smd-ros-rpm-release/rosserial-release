@@ -1,0 +1,67 @@
+ros-hydro-rosserial-xbee (0.5.5-0raring) raring; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Tue, 14 Jan 2014 07:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.5.4-0raring) raring; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Thu, 17 Oct 2013 06:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.5.3-0raring) raring; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Sat, 21 Sep 2013 06:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.5.2-0raring) raring; urgency=high
+
+  * Fix release version
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 17 Jul 2013 06:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.5.1-0raring) raring; urgency=high
+
+  * manually merge #53 <https://github.com/ros-drivers/rosserial/issues/53>, revive catkinized rosserial_xbee
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Mon, 15 Jul 2013 06:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.4.5-0raring) raring; urgency=high
+
+
+
+ -- Michael Ferguson <mferguson@willowgarage.com>  Tue, 02 Jul 2013 06:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.4.4-0raring) raring; urgency=high
+
+
+
+ -- Michael Ferguson <mferguson@willowgarage.com>  Wed, 20 Mar 2013 06:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.4.3-0raring) raring; urgency=high
+
+
+
+ -- Michael Ferguson <mferguson@willowgarage.com>  Wed, 13 Mar 2013 20:08:00 -0000
+
+ros-hydro-rosserial-xbee (0.4.2-0raring) raring; urgency=high
+
+
+
+ -- Michael Ferguson <mferguson@willowgarage.com>  Wed, 13 Mar 2013 07:15:00 -0000
+
+ros-hydro-rosserial-xbee (0.4.1-0raring) raring; urgency=high
+
+
+
+ -- Michael Ferguson <mferguson@willowgarage.com>  Sat, 09 Mar 2013 07:00:00 -0000
+
+ros-hydro-rosserial-xbee (0.4.0-0raring) raring; urgency=high
+
+  * moving rosserial_xbee to rosserial-experimental repo
+
+ -- Michael Ferguson <mferguson@willowgarage.com>  Fri, 08 Mar 2013 07:00:00 -0000
+
+
