@@ -2,6 +2,11 @@
 Changelog for package rosserial_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.5 (2014-01-14)
+------------------
+* Add support for require/publishers and require/subscribers parameters.
+* Use stream logging in rosserial_server
+
 0.5.4 (2013-10-17)
 ------------------
 
