@@ -1,0 +1,12 @@
+Source: ros-hydro-rosserial-embeddedlinux
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-rosserial-client, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/rosserial_embeddedlinux
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosserial-embeddedlinux
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rospy, ros-hydro-rosserial-msgs
+Description: Libraries and examples for ROSserial usage on Embedded Linux Enviroments
