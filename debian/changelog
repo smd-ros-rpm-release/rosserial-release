@@ -1,0 +1,85 @@
+ros-indigo-rosserial-msgs (0.6.0-2trusty) trusty; urgency=high
+
+  * Uncomment ID_TX_STOP constant, per #111 <https://github.com/ros-drivers/rosserial/issues/111>
+  * Contributors: Mike Purvis
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 11 Jun 2014 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.5.6-2trusty) trusty; urgency=high
+
+  * Add Mike Purvis as maintainer to all but xbee.
+  * remove ID_TX_STOP from rosserial_msgs/msg/TopicInfo.msg, using hardcode modification. fix the dupilcated registration problem of subscriber
+  * modified rosserial
+  * Contributors: Mike Purvis, Moju Zhao
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 11 Jun 2014 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.5.5-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Tue, 14 Jan 2014 05:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.5.4-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Thu, 17 Oct 2013 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.5.3-2trusty) trusty; urgency=high
+
+  * Add message info service and stub of node to provide it, for
+  rosserial_server support.
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Sat, 21 Sep 2013 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.5.2-2trusty) trusty; urgency=high
+
+  * Fix release version
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 17 Jul 2013 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.5.1-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Mon, 15 Jul 2013 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.4.5-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Tue, 02 Jul 2013 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.4.4-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 20 Mar 2013 04:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.4.3-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 13 Mar 2013 18:08:00 -0000
+
+ros-indigo-rosserial-msgs (0.4.2-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Wed, 13 Mar 2013 05:15:00 -0000
+
+ros-indigo-rosserial-msgs (0.4.1-2trusty) trusty; urgency=high
+
+
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Sat, 09 Mar 2013 05:00:00 -0000
+
+ros-indigo-rosserial-msgs (0.4.0-2trusty) trusty; urgency=high
+
+  * Changed DEBUG log level to ROSDEBUG.
+  * initial catkin version on github
+
+ -- Paul Bouchier <paul.bouchier@gmail.com>  Fri, 08 Mar 2013 05:00:00 -0000
+
+
