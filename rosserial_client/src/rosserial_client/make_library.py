@@ -166,11 +166,11 @@ class StringDataType(PrimitiveDataType):
     """ Need to convert to signed char *. """
 
     def make_declaration(self, f):
-        f.write('      char * %s;\n' % self.name)
+        f.write('      const char* %s;\n' % self.name)
 
     def serialize(self, f):
         cn = self.name.replace("[","").replace("]","")
-        f.write('      uint32_t length_%s = strlen( (const char*) this->%s);\n' % (cn,self.name))
+        f.write('      uint32_t length_%s = strlen(this->%s);\n' % (cn,self.name))
         f.write('      memcpy(outbuffer + offset, &length_%s, sizeof(uint32_t));\n' % cn)        
         f.write('      offset += 4;\n')
         f.write('      memcpy(outbuffer + offset, this->%s, length_%s);\n' % (self.name,cn))
@@ -239,7 +239,6 @@ class ArrayDataType(PrimitiveDataType):
             c.serialize(f)
             f.write('      }\n')
         else:
-            f.write('      unsigned char * %s_val = (unsigned char *) this->%s;\n' % (self.name, self.name))
             f.write('      for( uint8_t i = 0; i < %d; i++){\n' % (self.size) )
             c.serialize(f)
             f.write('      }\n')
@@ -260,7 +259,6 @@ class ArrayDataType(PrimitiveDataType):
             f.write('      }\n')
         else:
             c = self.cls(self.name+"[i]", self.type, self.bytes)
-            f.write('      uint8_t * %s_val = (uint8_t*) this->%s;\n' % (self.name, self.name))
             f.write('      for( uint8_t i = 0; i < %d; i++){\n' % (self.size) )
             c.deserialize(f)
             f.write('      }\n')

@@ -2,6 +2,9 @@
 Changelog for package rosserial_arduino
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2014-06-11)
+------------------
+
 0.5.6 (2014-06-11)
 ------------------
 * Add Mike Purvis as maintainer

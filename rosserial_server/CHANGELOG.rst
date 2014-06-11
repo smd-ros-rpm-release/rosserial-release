@@ -2,6 +2,9 @@
 Changelog for package rosserial_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2014-06-11)
+------------------
+
 0.5.6 (2014-06-11)
 ------------------
 * Fixed build error due to variable being read as a function due to missing parenthesis
