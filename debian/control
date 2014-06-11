@@ -1,0 +1,12 @@
+Source: ros-indigo-rosserial-msgs
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation
+Homepage: http://ros.org/wiki/rosserial_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosserial-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime
+Description: Messages for automatic topic configuration using rosserial.
