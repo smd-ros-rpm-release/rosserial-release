@@ -1,0 +1,12 @@
+Source: ros-indigo-rosserial-arduino
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), avr-libc, gcc-avr, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-rosserial-client, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/rosserial_arduino
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosserial-arduino
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-rospy, ros-indigo-rosserial-client, ros-indigo-rosserial-msgs
+Description: Libraries and examples for ROSserial usage on Arduino/AVR Platforms.
