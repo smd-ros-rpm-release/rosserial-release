@@ -1,0 +1,12 @@
+Source: ros-hydro-rosserial-windows
+Section: misc
+Priority: extra
+Maintainer: Kareem Shehata <kshehata@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-rosserial-client, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/rosserial_windows
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosserial-windows
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-rospy, ros-hydro-rosserial-client, ros-hydro-rosserial-msgs
+Description: Libraries and examples for ROSserial usage on Windows Platforms.
