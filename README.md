@@ -1,3 +1,31 @@
+## rosserial (indigo) - 0.6.1-0
+
+The packages in the `rosserial` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo rosserial` on `Mon, 30 Jun 2014 15:05:59 -0000`
+
+These packages were released:
+- `rosserial`
+- `rosserial_arduino`
+- `rosserial_client`
+- `rosserial_embeddedlinux`
+- `rosserial_msgs`
+- `rosserial_python`
+- `rosserial_server`
+- `rosserial_windows`
+- `rosserial_xbee`
+
+Version of package(s) in repository `rosserial`:
+- rosdistro version: `0.6.0-2`
+- old version: `0.6.0-2`
+- new version: `0.6.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.35`
+
+
 ## rosserial (indigo) - 0.6.0-2
 
 The packages in the `rosserial` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo rosserial` on `Wed, 11 Jun 2014 19:19:01 -0000`
