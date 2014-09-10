@@ -1,0 +1,12 @@
+Source: ros-indigo-rosserial-windows
+Section: misc
+Priority: extra
+Maintainer: Kareem Shehata <kshehata@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-rosserial-client, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/rosserial_windows
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosserial-windows
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-rospy, ros-indigo-rosserial-client, ros-indigo-rosserial-msgs
+Description: Libraries and examples for ROSserial usage on Windows Platforms.
