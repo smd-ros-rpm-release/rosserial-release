@@ -2,6 +2,12 @@
 Changelog for package rosserial_python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.2 (2014-09-10)
+------------------
+* Added MD5 verification for request and response messags upon ServiceClient registration.
+* Enabled registration of service clients
+* Contributors: Jonathan Jekir
+
 0.6.1 (2014-06-30)
 ------------------
 
