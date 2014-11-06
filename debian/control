@@ -1,0 +1,12 @@
+Source: ros-indigo-rosserial-client
+Section: misc
+Priority: extra
+Maintainer: Paul Bouchier <paul.bouchier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/rosserial_client
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosserial-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rospy, ros-indigo-rosserial-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Description: Generalized client side source for rosserial.
