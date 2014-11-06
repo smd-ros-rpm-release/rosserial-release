@@ -1,0 +1,67 @@
+ros-indigo-rosserial-server (0.6.3-0trusty) trusty; urgency=high
+
+  * Add more log output, don't end the session for certain write errors.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 05 Nov 2014 05:00:00 -0000
+
+ros-indigo-rosserial-server (0.6.2-0trusty) trusty; urgency=high
+
+  * Bugfix for interrupted sessions.
+    This is a two-part fix for an issue causes a segfault when the device
+    disappears during operation, for example a ttyACM device which is unplugged.
+    The AsyncReadBuffer part avoids calling a callback after the object
+    owning it has destructed, and the SerialSession part avoids recreating
+    itself until the previous instance has finished the destructor and been
+    full destroyed.
+  * Add dependency on rosserial_msgs_gencpp, fixes #133 <https://github.com/ros-drivers/rosserial/issues/133>
+  * Make ServiceClient::handle public, to fix compilation bug on some platforms.
+  * Enabled registration of service clients
+  * Add namespaces to headers, swap ROS thread to foreground.
+  * Move headers to include path, rename to follow ROS style.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 10 Sep 2014 04:00:00 -0000
+
+ros-indigo-rosserial-server (0.6.1-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Mon, 30 Jun 2014 04:00:00 -0000
+
+ros-indigo-rosserial-server (0.6.0-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 11 Jun 2014 04:00:00 -0000
+
+ros-indigo-rosserial-server (0.5.6-0trusty) trusty; urgency=high
+
+  * Fixed build error due to variable being read as a function due to missing parenthesis
+  * Add rosserial_python as dependency of rosserial_server
+  * Contributors: Mike Purvis, spaghetti-
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 11 Jun 2014 04:00:00 -0000
+
+ros-indigo-rosserial-server (0.5.5-0trusty) trusty; urgency=high
+
+  * Add support for require/publishers and require/subscribers parameters.
+  * Use stream logging in rosserial_server
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 14 Jan 2014 05:00:00 -0000
+
+ros-indigo-rosserial-server (0.5.4-0trusty) trusty; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 17 Oct 2013 04:00:00 -0000
+
+ros-indigo-rosserial-server (0.5.3-0trusty) trusty; urgency=high
+
+  * New package: rosserial_server
+  * Contains example launch file for serial configuration of server
+  * Working now with both Groovy and Hydro clients.
+  * Subscriber to correctly declare known md5 and topic type from client.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Sat, 21 Sep 2013 04:00:00 -0000
+
+
